@@ -5,8 +5,8 @@ import mysql.connector
 app = Flask(__name__)
 
 def registerConnection():
-   db = mysql.connector.connect(user='root', password='',
-                              host='192.168.1.134',
+   db = mysql.connector.connect(user='usuari1', password='',
+                              host='localhost',
                               database='m8ac7')
    cursor = db.cursor()
    cursor.execute("insert into prova;")
