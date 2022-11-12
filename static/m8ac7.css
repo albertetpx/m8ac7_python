@@ -27,7 +27,7 @@ body {
 #image {
 	overflow: hidden;
 	width: 80%;
-	height: 55%;
+	height: 54%;
 	background: var(--navy);
 	display: grid;
 
