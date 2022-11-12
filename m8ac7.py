@@ -9,7 +9,7 @@ def registerConnection():
                               host='localhost',
                               database='m8ac7')
    cursor = db.cursor()
-   cursor.execute("insert into prova() values();")
+   cursor.execute("insert into prova;")
    db.close()
 
 @app.route('/') 
