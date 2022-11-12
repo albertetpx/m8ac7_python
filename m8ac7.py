@@ -10,6 +10,7 @@ def registerConnection():
                               database='m8ac7')
    cursor = db.cursor()
    cursor.execute("insert into prova() values();")
+   db.commit()
    db.close()
 
 @app.route('/') 
